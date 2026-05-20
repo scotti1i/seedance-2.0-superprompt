@@ -1,8 +1,10 @@
-# seedance-prompt
+# seedance-superprompt
 
 > A Claude Code skill that turns ANY rough video idea — even a broken
 > prompt full of junk tokens — into a production-grade Seedance 2.0
 > prompt that pastes cleanly into any Seedance client.
+
+**Built by [@scotti1i](https://github.com/scotti1i) · MIT License**
 
 Zero CLI dependency. Zero API calls. Zero credentials.
 Just engineered prompts, every time.
@@ -143,20 +145,20 @@ This skill compresses that 1100-line SOT into a Claude-driven workflow:
 ### Option A — One-line install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<your-username>/seedance-prompt/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/scotti1i/seedance-superprompt/main/install.sh | bash
 ```
 
 ### Option B — Manual
 
 ```bash
-git clone https://github.com/<your-username>/seedance-prompt.git
+git clone https://github.com/scotti1i/seedance-superprompt.git
 cp -r seedance-prompt/seedance ~/.claude/skills/seedance
 ```
 
 ### Option C — Symlink (for contributors)
 
 ```bash
-git clone https://github.com/<your-username>/seedance-prompt.git
+git clone https://github.com/scotti1i/seedance-superprompt.git
 ln -s "$(pwd)/seedance-prompt/seedance" ~/.claude/skills/seedance
 ```
 
