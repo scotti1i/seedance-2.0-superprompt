@@ -11,7 +11,7 @@ tags: [ecommerce, product]
 variables:
   - name: "${product_name}"
     desc: "product name + form factor"
-    example: "Trenz comforter / Stanley tumbler / Apple Watch"
+    example: "Acme cream linen comforter / Stanley tumbler / Apple Watch"
   - name: "${product_material}"
     desc: "key material descriptor"
     example: "cream linen / brushed stainless steel / titanium"
@@ -55,7 +55,7 @@ Shot on Sony A7S3, natural color, slight film grain, premium commercial realism.
 
 | Variable | What to replace with | Example |
 |---|---|---|
-| `${product_name}` | Generic product name | "Trenz comforter" / "Stanley tumbler" |
+| `${product_name}` | Generic product name | "Acme cream linen comforter" / "Stanley tumbler" |
 | `${product_material}` | Hero material | "cream linen" / "brushed stainless steel" |
 | `${product_feature}` | Differentiator | "filling the seams perfectly" |
 | `${brand_logo_location}` | Logo position | "embroidered corner" / "engraved base" |

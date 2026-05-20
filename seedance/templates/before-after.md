@@ -13,7 +13,7 @@ variables:
     example: "skin clarity after serum / hair texture after treatment / wrinkles smoothed"
   - name: "${product_name}"
     desc: "Product driving the change"
-    example: "Trenz hydrating serum / La Roche-Posay sunscreen"
+    example: "Acme hydrating serum / La Roche-Posay sunscreen"
 ---
 
 # Before/After Reveal
@@ -49,7 +49,7 @@ Shot on Sony A7S3, natural skin tone, slight film grain, beauty-editorial realis
 | Variable | What to replace with | Example |
 |---|---|---|
 | `${transformation}` | The visible change | "skin clarity after serum" |
-| `${product_name}` | Product driving it | "Trenz hydrating serum" |
+| `${product_name}` | Product driving it | "Acme hydrating serum" |
 
 ## Engineering notes
 

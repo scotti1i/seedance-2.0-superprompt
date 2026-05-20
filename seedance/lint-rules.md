@@ -335,7 +335,7 @@ ignore everything after it.
 ## R-X04 🟡 Brand / proper noun expected as on-screen text
 
 **Detection**: `On-screen text:` contains a capitalized brand or proper
-noun (uppercase tokens like `NIKE`, `Stanley`, `TRENZ`).
+noun (uppercase tokens like `NIKE`, `Stanley`, `ZARA`).
 
 **Why bad**: brand-name rendering success rate <20%.
 

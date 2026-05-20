@@ -39,7 +39,7 @@ variables:
 
 | Variable | What to replace with | Example |
 |---|---|---|
-| `${product_name}` | the product you're showcasing | "Trenz comforter" |
+| `${product_name}` | the product you're showcasing | "Acme cream linen comforter" |
 | `${...}` | ... | ... |
 
 ## Engineering notes

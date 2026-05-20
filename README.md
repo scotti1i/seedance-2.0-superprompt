@@ -1,16 +1,42 @@
 # seedance-superprompt
 
+**🌐 Language**: **English** · [中文](README.zh-CN.md)
+
 > A Claude Code skill that turns ANY rough video idea — even a broken
 > prompt full of junk tokens — into a production-grade Seedance 2.0
 > prompt that pastes cleanly into any Seedance client.
-
-**Built by [@scotti1i](https://github.com/scotti1i) · MIT License**
 
 Zero CLI dependency. Zero API calls. Zero credentials.
 Just engineered prompts, every time.
 
 **Three modes**: WRITE (idea → prompt), LINT (audit a prompt), FIX
 (rewrite a bad prompt into a good one with full diff explanation).
+
+---
+
+## 👤 About the author
+
+**ScottLi** ([@scotti1i](https://github.com/scotti1i)) — AI builder
+working on TikTok Shop, cross-border e-commerce, and AI video tooling.
+I open-source the methodology tools I build for my own work.
+
+If this skill helps you, give it a ⭐ on GitHub and reach out below — I
+read everything.
+
+### Connect
+
+| Platform | Handle |
+|---|---|
+| 📧 Email | [yifanlitju@gmail.com](mailto:yifanlitju@gmail.com) |
+| 🎵 抖音 (Douyin) | **SCT出海Scott** |
+| 🐙 GitHub | [@scotti1i](https://github.com/scotti1i) |
+
+### Sponsor / hire
+
+If your team is building with Seedance 2.0 or other ByteDance video
+models at scale and wants a custom prompt-engineering audit, methodology
+training, or workflow integration — get in touch via any of the channels
+above.
 
 ---
 
