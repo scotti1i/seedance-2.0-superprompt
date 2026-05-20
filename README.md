@@ -6,7 +6,7 @@
 > production-grade Seedance 2.0 prompt that pastes anywhere.**
 > Zero CLI · Zero API · Zero credentials.
 
-📺 [**Watch 60-sec demo**](https://www.youtube.com/@ScottGlobalAI) · ⭐ [Star on GitHub](https://github.com/scotti1i/seedance-superprompt) · 📚 [Methodology](seedance/methodology.md) · 🇨🇳 [中文](README.zh-CN.md)
+⭐ [Star on GitHub](https://github.com/scotti1i/seedance-superprompt) · 📚 [Methodology](seedance/methodology.md) · ▶️ [Author's YouTube](https://www.youtube.com/@ScottGlobalAI) · 🇨🇳 [中文](README.zh-CN.md)
 
 ---
 
@@ -255,8 +255,8 @@ collar from Petsmart
 Picks T2V / I2V / R2V / V2V / Frames based on what assets you have.
 
 ### 📐 Methodology enforcement
-25 lint rules distilled from the official ByteDance SOT + 100+ field
-tests.
+25 lint rules distilled from the official ByteDance / Volcano Engine
+prompting guides and community-published field reports.
 
 ### 📚 Template library
 8 verified production templates: pet vlog, product showcase, morning

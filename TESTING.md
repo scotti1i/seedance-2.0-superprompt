@@ -1,7 +1,16 @@
-# End-to-End Skill Tests
+# Reference Scenarios
 
-Tests that validate the `seedance` skill produces correctly engineered
-prompts across multiple scenarios without depending on any CLI.
+> ⚠️ **What this file is**: hand-traced reference outputs showing what
+> the `seedance` skill is expected to produce for given inputs. They
+> are written by the author to validate the skill's specification.
+>
+> **What this file is NOT**: automated regression tests, end-to-end
+> client integration tests, or proof that any specific Seedance video
+> output was generated and rated. None of these scenarios were executed
+> against a live Claude Code session or a live Seedance client.
+>
+> Use these as documentation of expected skill behavior, not as a
+> guarantee of output quality.
 
 ---
 

@@ -5,9 +5,7 @@ mode: r2v
 duration_s: 15
 ratio: 9:16
 model_variant: seedance2.0fast
-verified_on: 2026-05
-verified_client: jimeng.jianying.com
-success_rate: "field-validated against viral TikTok reference"
+last_reviewed: 2026-05
 tags: [lifestyle, pet, ecommerce, viral]
 variables:
   - name: "${pet_description}"

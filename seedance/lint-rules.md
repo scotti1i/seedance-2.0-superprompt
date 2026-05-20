@@ -1,7 +1,8 @@
 # Lint Rules — Seedance 2.0 Prompt Anti-Patterns
 
 A catalog of patterns known to hurt Seedance 2.0 output, distilled from
-the official guides and ~100 field tests.
+the official ByteDance / Volcano Engine prompting guides and community-
+published field reports.
 
 This catalog powers two skill workflows:
 - **LINT** (`/seedance lint <prompt>`) — report only, no rewriting

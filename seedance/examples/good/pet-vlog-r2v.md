@@ -58,9 +58,13 @@ Constraints: face stable, no distortion, body proportions natural, motion fluid,
   added in CapCut / 剪映 post.
 - **Realistic fidelity expectations** (see below) — not over-promising
 
-## Expected fidelity
+## Expected fidelity (estimates, not measured)
 
-| Dimension | Expected fidelity |
+> Approximate ceilings based on the official ByteDance methodology and
+> the model's documented limits. These are NOT measured success rates
+> from runs of this exact prompt.
+
+| Dimension | Expected ceiling |
 |---|---|
 | Overall vibe + color grading | ~90% |
 | Cut pacing (via @video1) | ~85% |

@@ -5,7 +5,7 @@ mode: r2v
 duration_s: 8
 ratio: 9:16
 model_variant: seedance2.0fast
-verified_on: 2026-05
+last_reviewed: 2026-05
 tags: [ecommerce, beauty, transformation]
 variables:
   - name: "${transformation}"

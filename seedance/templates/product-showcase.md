@@ -5,8 +5,7 @@ mode: r2v
 duration_s: 10
 ratio: 9:16
 model_variant: seedance2.0fast
-verified_on: 2026-05
-success_rate: "high — works across product categories"
+last_reviewed: 2026-05
 tags: [ecommerce, product]
 variables:
   - name: "${product_name}"

@@ -1,7 +1,8 @@
 # Seedance 2.0 Prompt Engineering Methodology
 
-> Distilled from the official ByteDance / Volcano Engine guides + ~100 verified
-> production runs. Read this once. It becomes the spine of every prompt you write.
+> Distilled from the official ByteDance / Volcano Engine prompting guides
+> and community-published field reports. Read this once. It becomes the
+> spine of every prompt you write.
 
 ---
 
@@ -429,9 +430,11 @@ archetypes**.
 
 ## Sources
 
-- ByteDance official Larksuite SOT (Seedance 2.0 prompting guide)
-- ByteDance Volcano Engine official docs: https://docs.byteplus.com/en/docs/ModelArk/2222480
+- ByteDance Volcano Engine / BytePlus official prompting docs:
+  https://docs.byteplus.com/en/docs/ModelArk/2222480
 - ByteDance Volcengine docs: https://www.volcengine.com/docs/82379/2222480
-- Field tests: 100+ verified production prompts (2026-03 to 2026-05)
+- Community-published field reports on Seedance 2.0 prompt patterns
+- Author's own production traces (anonymized; specific counts are not
+  claimed for this release)
 
-Last verified: 2026-05
+Last reviewed: 2026-05

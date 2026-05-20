@@ -5,10 +5,8 @@ mode: t2v | i2v | r2v | v2v | frames
 duration_s: 5 | 8 | 10 | 15
 ratio: 9:16 | 16:9 | 1:1 | 3:4 | 4:3 | 21:9
 model_variant: seedance2.0fast | seedance2.0
-verified_on: YYYY-MM-DD
-verified_client: jimeng.jianying.com | dreamina.capcut.com | volcengine | byteplus | other
-success_rate: "X/5 runs"
-demo_video: "(optional URL to a verified output sample)"
+last_reviewed: YYYY-MM-DD     # date you last reviewed against methodology
+demo_video: ""                # OPTIONAL — leave empty unless you have actually run this template and published a real output sample
 tags: [ecommerce, lifestyle, narrative, ...]
 variables:
   - name: "${var_name}"

@@ -6,7 +6,7 @@
 > production-grade 的 Seedance 2.0 提示词，粘到任何客户端都能跑。**
 > 零 CLI · 零 API · 零凭证。
 
-📺 [**观看 60 秒 demo**](https://www.youtube.com/@ScottGlobalAI) · ⭐ [GitHub 加星](https://github.com/scotti1i/seedance-superprompt) · 📚 [方法论](seedance/methodology.md) · 🇬🇧 [English](README.md)
+⭐ [GitHub 加星](https://github.com/scotti1i/seedance-superprompt) · 📚 [方法论](seedance/methodology.md) · ▶️ [作者 YouTube](https://www.youtube.com/@ScottGlobalAI) · 🇬🇧 [English](README.md)
 
 ---
 
@@ -247,7 +247,8 @@ Dreamina / 即梦 时也会自动触发。
 根据你手上的素材自动选 T2V / I2V / R2V / V2V / Frames。
 
 ### 📐 方法论强制
-25 条 lint 规则，来自字节官方 SOT + 100+ 次实战。
+25 条 lint 规则，整理自字节 / 火山引擎官方 prompting 指南 + 社区公开
+field report。
 
 ### 📚 模板库
 8 个验证过的生产模板：萌宠 vlog、产品展示、晨间日常、城市 walk、
