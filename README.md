@@ -1,43 +1,45 @@
 # seedance-superprompt
 
-**🌐 Language**: **English** · [中文](README.zh-CN.md)
+**🌐**  [**English**](README.md)  ·  [中文](README.zh-CN.md)
 
-> A Claude Code skill that turns ANY rough video idea — even a broken
-> prompt full of junk tokens — into a production-grade Seedance 2.0
-> prompt that pastes cleanly into any Seedance client.
+> **Turn any rough video idea — even a junk-token soup — into a
+> production-grade Seedance 2.0 prompt that pastes anywhere.**
+> Zero CLI · Zero API · Zero credentials.
 
-Zero CLI dependency. Zero API calls. Zero credentials.
-Just engineered prompts, every time.
-
-**Three modes**: WRITE (idea → prompt), LINT (audit a prompt), FIX
-(rewrite a bad prompt into a good one with full diff explanation).
+📺 [**Watch 60-sec demo**](https://www.youtube.com/@ScottGlobalAI) · ⭐ [Star on GitHub](https://github.com/scotti1i/seedance-superprompt) · 📚 [Methodology](seedance/methodology.md) · 🇨🇳 [中文](README.zh-CN.md)
 
 ---
 
-## 👤 About the author
+## ⚡ Install in 30 seconds
 
-**ScottLi** ([@scotti1i](https://github.com/scotti1i)) — AI builder
-working on TikTok Shop, cross-border e-commerce, and AI video tooling.
-I open-source the methodology tools I build for my own work.
+```bash
+git clone https://github.com/scotti1i/seedance-superprompt.git
+cd seedance-superprompt && bash install.sh
+```
 
-If this skill helps you, give it a ⭐ on GitHub and reach out below — I
-read everything.
+Restart Claude Code. Type `/seedance` and you're live.
 
-### Connect
+---
 
-| Platform | Handle |
+## 🎯 What you get (3 modes, 1 skill)
+
+| You type | Skill returns |
 |---|---|
-| 📧 Email | [yifanlitju@gmail.com](mailto:yifanlitju@gmail.com) |
-| ▶️ YouTube | [@ScottGlobalAI](https://www.youtube.com/@ScottGlobalAI) |
-| 🎵 抖音 (Douyin) | **SCT出海Scott** |
-| 🐙 GitHub | [@scotti1i](https://github.com/scotti1i) |
+| `/seedance 10s vertical cat vlog in afternoon light` | A full 3-segment engineered prompt + parameters + paste-target list |
+| `/seedance lint <your prompt>` | A rule-by-rule audit + 1-10 score in 5 seconds |
+| `/seedance fix <your bad prompt>` | **Lint report + auto-rewritten prompt + diff explanation** (the killer feature) |
 
-### Sponsor / hire
+**Bottom line**: stop writing AI-generic prompts. This skill enforces
+named cameras (Sony A7S3, ARRI Alexa, iPhone 15 Pro), 3-segment
+timelines, color+material+light scene triplets, `@image` rebinding, and
+3-5 specific negatives — automatically, every time, citing the official
+ByteDance methodology rule for each decision.
 
-If your team is building with Seedance 2.0 or other ByteDance video
-models at scale and wants a custom prompt-engineering audit, methodology
-training, or workflow integration — get in touch via any of the channels
-above.
+The output is plain text. Paste it into:
+[即梦](https://jimeng.jianying.com) ·
+[CapCut Dreamina](https://dreamina.capcut.com) ·
+Volcano Engine API · BytePlus ModelArk ·
+PiAPI · Coze · or any third-party wrapper.
 
 ---
 
@@ -346,6 +348,31 @@ Full details: [methodology.md](seedance/methodology.md).
 - ❌ A guarantee — Seedance is non-deterministic; expect 2-5 retries for
   hero shots
 - ❌ Affiliated with ByteDance / Volcano Engine / Dreamina / Jianying
+
+---
+
+## 👤 About the author
+
+**ScottLi** ([@scotti1i](https://github.com/scotti1i)) — AI builder
+working on TikTok Shop, cross-border e-commerce, and AI video tooling.
+I open-source the methodology tools I build for my own work.
+
+If this skill helps you, give it a ⭐ on GitHub and reach out via any
+channel below — I read everything.
+
+| Platform | Handle |
+|---|---|
+| 📧 Email | [yifanlitju@gmail.com](mailto:yifanlitju@gmail.com) |
+| ▶️ YouTube | [@ScottGlobalAI](https://www.youtube.com/@ScottGlobalAI) |
+| 🎵 抖音 (Douyin) | **SCT出海Scott** |
+| 🐙 GitHub | [@scotti1i](https://github.com/scotti1i) |
+
+### Sponsor / hire
+
+If your team is building with Seedance 2.0 or other ByteDance video
+models at scale and wants a custom prompt-engineering audit, methodology
+training, or workflow integration — get in touch via any of the channels
+above.
 
 ---
 

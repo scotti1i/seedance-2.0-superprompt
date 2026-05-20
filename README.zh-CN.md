@@ -1,46 +1,44 @@
 # seedance-superprompt
 
-**🌐 语言**: [English](README.md) · **中文**
+**🌐**  [English](README.md)  ·  [**中文**](README.zh-CN.md)
 
-> 一个 Claude Code 技能：把任意视频想法——哪怕是充满 junk token 的烂
-> prompt——一键变成 production-grade 的 Seedance 2.0 提示词。
-> 输出可粘贴到任何 Seedance 客户端（即梦 / CapCut / 火山引擎 / BytePlus
-> / 第三方）。
+> **把任意视频想法——哪怕是充满 junk token 的烂 prompt——一键变成
+> production-grade 的 Seedance 2.0 提示词，粘到任何客户端都能跑。**
+> 零 CLI · 零 API · 零凭证。
 
-零 CLI 依赖。零 API 调用。零凭证。
-就是工程化的好 prompt，每一次都稳。
-
-**三种模式**：WRITE（想法 → prompt）、LINT（审计现有 prompt）、FIX
-（一键重写烂 prompt 并给出完整 diff 解释）。
+📺 [**观看 60 秒 demo**](https://www.youtube.com/@ScottGlobalAI) · ⭐ [GitHub 加星](https://github.com/scotti1i/seedance-superprompt) · 📚 [方法论](seedance/methodology.md) · 🇬🇧 [English](README.md)
 
 ---
 
-## 👤 关于作者
+## ⚡ 30 秒安装
 
-**ScottLi** ([@scotti1i](https://github.com/scotti1i)) — AI builder，
-专注 TikTok Shop、跨境电商、AI 视频工具。
-把自己日常用的方法论工具开源出来。
+```bash
+git clone https://github.com/scotti1i/seedance-superprompt.git
+cd seedance-superprompt && bash install.sh
+```
 
-如果这个 skill 对你有帮助，请到 GitHub 给个 ⭐，下面任意渠道随时联系
-——每条都看。
+重启 Claude Code。输入 `/seedance` 就能用。
 
-### 联系方式
+---
 
-| 平台 | 账号 |
+## 🎯 你能拿到什么（1 个 skill，3 种模式）
+
+| 你输入 | Skill 返回 |
 |---|---|
-| 📧 邮箱 | [yifanlitju@gmail.com](mailto:yifanlitju@gmail.com) |
-| ▶️ YouTube | [@ScottGlobalAI](https://www.youtube.com/@ScottGlobalAI) |
-| 🎵 抖音 | **SCT出海Scott** |
-| 🐙 GitHub | [@scotti1i](https://github.com/scotti1i) |
+| `/seedance 10s 竖屏 一只猫在午后阳光下玩球` | 一份 3 段式工程化 prompt + 参数 + 可粘贴客户端清单 |
+| `/seedance lint <你的 prompt>` | 25 条规则逐条审计 + 1-10 评分（5 秒出报告）|
+| `/seedance fix <你的烂 prompt>` | **Lint 报告 + 自动重写的 prompt + 完整 diff 解释**（杀手锏）|
 
-### 合作 / 咨询
+**一句话**：别再写 AI 味浓的烂 prompt 了。Skill 自动强制使用命名相机
+（Sony A7S3 / ARRI Alexa / iPhone 15 Pro）、3 段时间轴、颜色+材质+光源
+三件套、`@图片N` 每段绑定、3-5 个具体负面词——每次都按字节官方方法论
+执行，并给出每个决策的规则引用。
 
-如果你的团队在大规模使用 Seedance 2.0 或字节其他视频模型，需要：
-- 定制化 prompt 工程审计
-- 方法论培训
-- 工作流集成
-
-欢迎通过上面任意渠道联系。
+输出是纯文本，可粘到：
+[即梦](https://jimeng.jianying.com) ·
+[CapCut Dreamina](https://dreamina.capcut.com) ·
+火山引擎 API · BytePlus ModelArk ·
+PiAPI · Coze · 或任何第三方 wrapper。
 
 ---
 
@@ -339,6 +337,33 @@ Skill 强制执行：
 - ❌ 付费服务（无 credits、无 API key）
 - ❌ 保证书 — Seedance 本身是非确定性的，hero shot 一般要 2-5 次重试
 - ❌ ByteDance / 火山引擎 / 即梦 / 剪映的官方关联
+
+---
+
+## 👤 关于作者
+
+**ScottLi** ([@scotti1i](https://github.com/scotti1i)) — AI builder，
+专注 TikTok Shop、跨境电商、AI 视频工具。
+把自己日常用的方法论工具开源出来。
+
+如果这个 skill 对你有帮助，请到 GitHub 给个 ⭐，下面任意渠道随时联系
+——每条都看。
+
+| 平台 | 账号 |
+|---|---|
+| 📧 邮箱 | [yifanlitju@gmail.com](mailto:yifanlitju@gmail.com) |
+| ▶️ YouTube | [@ScottGlobalAI](https://www.youtube.com/@ScottGlobalAI) |
+| 🎵 抖音 | **SCT出海Scott** |
+| 🐙 GitHub | [@scotti1i](https://github.com/scotti1i) |
+
+### 合作 / 咨询
+
+如果你的团队在大规模使用 Seedance 2.0 或字节其他视频模型，需要：
+- 定制化 prompt 工程审计
+- 方法论培训
+- 工作流集成
+
+欢迎通过上面任意渠道联系。
 
 ---
 
