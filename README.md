@@ -1,7 +1,9 @@
 # Seedance 2.0 Superprompt
 
-> The Claude Code skill for writing, auditing, and auto-fixing
-> **ByteDance Seedance 2.0** video-generation prompts.
+> A portable prompt skill / knowledge base for writing, auditing, and
+> auto-fixing **ByteDance Seedance 2.0** video-generation prompts.
+> Primary client: **Claude Code**. Also works as reference for **Codex,
+> Cursor, Claude.ai, ChatGPT, Gemini**, or any LLM agent.
 
 **🌐**  [**English**](README.md)  ·  [中文](README.zh-CN.md)
 
@@ -21,6 +23,26 @@ cd seedance-superprompt && bash install.sh
 ```
 
 Restart Claude Code. Type `/seedance` and you're live.
+
+---
+
+## 🛠️ Works with
+
+This is **portable prompt knowledge**, not Claude Code-locked. The
+`SKILL.md` + `methodology.md` + `templates/` + `lint-rules.md` files
+work as a reference library inside any AI coding agent.
+
+| Tool | How to use |
+|---|---|
+| **Claude Code** (primary) | Auto-install via `bash install.sh` → use `/seedance ...` natively |
+| **Codex CLI** | Paste `seedance/SKILL.md` content as the agent's system prompt; reference `seedance/methodology.md` for rules |
+| **Cursor** | Drop the `seedance/` folder into your project; ask Cursor to read it and follow the workflow in `SKILL.md` |
+| **Claude.ai / Claude.app** | Upload `methodology.md` + relevant template as project knowledge |
+| **ChatGPT / Gemini / DeepSeek** | Copy `SKILL.md` + `methodology.md` into the chat; ask the model to follow them |
+| **Manual** | Read `templates/INDEX.md`, copy a template, fill variables yourself, paste into your Seedance client |
+
+The actual output is **always plain text prompts**. The skill mechanic
+is the workflow; the methodology and templates are portable knowledge.
 
 ---
 
@@ -367,7 +389,7 @@ channel below — I read everything.
 |---|---|
 | 📧 Email | [yifanlitju@gmail.com](mailto:yifanlitju@gmail.com) |
 | ▶️ YouTube | [@ScottGlobalAI](https://www.youtube.com/@ScottGlobalAI) |
-| 🎵 抖音 (Douyin) | **SCT出海Scott** |
+| 🎵 抖音 (Douyin) | [SCT出海Scott](https://www.douyin.com/user/MS4wLjABAAAAwB0Jkhs1X4lC6k2OhohpTuQgtxoZQiYHmGhqleB9kGQ) |
 | 🐙 GitHub | [@scotti1i](https://github.com/scotti1i) |
 
 ### Sponsor / hire

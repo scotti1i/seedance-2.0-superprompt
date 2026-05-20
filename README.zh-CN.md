@@ -1,7 +1,9 @@
 # Seedance 2.0 Superprompt
 
-> 一个 Claude Code 技能，专门用来**写、审计、一键修复**字节
+> 一个可移植的提示词工具 / 知识库，专门用来**写、审计、一键修复**字节
 > **Seedance 2.0** 视频生成模型的提示词。
+> 主入口：**Claude Code**。也可作为参考库给 **Codex / Cursor /
+> Claude.ai / ChatGPT / Gemini** 等任何 LLM 工具使用。
 
 **🌐**  [English](README.md)  ·  [**中文**](README.zh-CN.md)
 
@@ -21,6 +23,26 @@ cd seedance-superprompt && bash install.sh
 ```
 
 重启 Claude Code。输入 `/seedance` 就能用。
+
+---
+
+## 🛠️ 适用的 AI 工具
+
+这是**可移植的提示词知识**，不绑定 Claude Code。
+`SKILL.md` + `methodology.md` + `templates/` + `lint-rules.md` 这套
+文件可以作为参考库放进任意 AI 编程助手。
+
+| 工具 | 怎么用 |
+|---|---|
+| **Claude Code**（主入口）| `bash install.sh` 自动安装 → 原生使用 `/seedance ...` |
+| **Codex CLI** | 把 `seedance/SKILL.md` 内容当 system prompt 喂给 agent，引用 `seedance/methodology.md` 作为规则库 |
+| **Cursor** | 把 `seedance/` 整个文件夹放进项目，让 Cursor 读取并按 `SKILL.md` 工作流执行 |
+| **Claude.ai / Claude.app** | 把 `methodology.md` + 相关模板作为 project knowledge 上传 |
+| **ChatGPT / Gemini / DeepSeek** | 把 `SKILL.md` + `methodology.md` 内容贴进对话，让模型遵循 |
+| **手动** | 直接看 `templates/INDEX.md`，复制模板填变量，粘到你用的 Seedance 客户端 |
+
+输出**永远是纯文本 prompt**。Skill 的机制是工作流；方法论和模板是可移植
+的知识资产。
 
 ---
 
@@ -357,7 +379,7 @@ Skill 强制执行：
 |---|---|
 | 📧 邮箱 | [yifanlitju@gmail.com](mailto:yifanlitju@gmail.com) |
 | ▶️ YouTube | [@ScottGlobalAI](https://www.youtube.com/@ScottGlobalAI) |
-| 🎵 抖音 | **SCT出海Scott** |
+| 🎵 抖音 | [SCT出海Scott](https://www.douyin.com/user/MS4wLjABAAAAwB0Jkhs1X4lC6k2OhohpTuQgtxoZQiYHmGhqleB9kGQ) |
 | 🐙 GitHub | [@scotti1i](https://github.com/scotti1i) |
 
 ### 合作 / 咨询
