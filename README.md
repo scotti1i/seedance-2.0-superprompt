@@ -28,6 +28,7 @@ read everything.
 | Platform | Handle |
 |---|---|
 | 📧 Email | [yifanlitju@gmail.com](mailto:yifanlitju@gmail.com) |
+| ▶️ YouTube | [@ScottGlobalAI](https://www.youtube.com/@ScottGlobalAI) |
 | 🎵 抖音 (Douyin) | **SCT出海Scott** |
 | 🐙 GitHub | [@scotti1i](https://github.com/scotti1i) |
 
