@@ -61,6 +61,16 @@ cd seedance-superprompt && bash install.sh
 
 重启 Claude Code。输入 `/seedance` 就能用。
 
+## 别人怎么用这个 repo
+
+| 用户类型 | 最短路径 |
+|---|---|
+| 只是想用 skill | 直接跑上面的安装命令 |
+| 想看规则 | 读 [methodology.md](seedance/methodology.md) 和 [lint-rules.md](seedance/lint-rules.md) |
+| 想找可复用案例 | 从 [template catalog](seedance/templates/INDEX.md) 开始 |
+| 想自己改一版 | fork 到自己的账号，然后改 `seedance/` 文件夹 |
+| repo owner | 不能把自己的 repo fork 到同一个账号；直接本地 clone 即可 |
+
 ---
 
 ## 🛠️ 适用的 AI 工具

@@ -60,6 +60,16 @@ cd seedance-superprompt && bash install.sh
 
 Restart Claude Code. Type `/seedance` and you're live.
 
+## How people use this repo
+
+| User type | Best path |
+|---|---|
+| Just want to use the skill | Run the install command above |
+| Want to inspect the rules | Read [methodology.md](seedance/methodology.md) and [lint-rules.md](seedance/lint-rules.md) |
+| Want reusable examples | Start from the [template catalog](seedance/templates/INDEX.md) |
+| Want to customize it | Fork this repo to your own account and edit the `seedance/` folder |
+| Repo owner | You cannot fork your own repo into the same account; clone it locally instead |
+
 ---
 
 ## 🛠️ Works with
