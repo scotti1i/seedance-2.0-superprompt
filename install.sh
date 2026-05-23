@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# install.sh — Install seedance-superprompt skill to ~/.claude/skills/
+# install.sh — Install seedance-2.0-superprompt skill to ~/.claude/skills/
 #
 # Usage:
 #   bash install.sh                  # install via cp
@@ -8,8 +8,8 @@
 #   bash install.sh --uninstall      # remove the installed skill
 #
 # Manual install (alternative):
-#   git clone https://github.com/scotti1i/seedance-superprompt.git
-#   cp -r seedance-superprompt/seedance ~/.claude/skills/seedance
+#   git clone https://github.com/scotti1i/seedance-2.0-superprompt.git
+#   cp -r seedance-2.0-superprompt/seedance ~/.claude/skills/seedance
 
 set -euo pipefail
 

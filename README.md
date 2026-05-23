@@ -30,7 +30,7 @@ Unlike prompt galleries, this repo does not try to collect thousands of examples
 > **Turn any rough video idea — even a junk-token soup — into a production-grade Seedance 2.0 prompt that pastes anywhere.**
 > Zero CLI · Zero API · Zero credentials.
 
-⭐ [Star on GitHub](https://github.com/scotti1i/seedance-superprompt) · 📚 [Methodology](seedance/methodology.md) · 🧩 [Template catalog](seedance/templates/INDEX.md) · 🇨🇳 [中文](README.zh-CN.md)
+⭐ [Star on GitHub](https://github.com/scotti1i/seedance-2.0-superprompt) · 📚 [Methodology](seedance/methodology.md) · 🧩 [Template catalog](seedance/templates/INDEX.md) · 🇨🇳 [中文](README.zh-CN.md)
 
 ## Why this repo exists
 
@@ -46,7 +46,7 @@ Prompt galleries are useful when you need inspiration. This repo is for the next
 
 > **Status**: solo-maintained by [@scotti1i](https://github.com/scotti1i).
 > Free to use, fork, and redistribute (MIT). **PRs not accepted at this
-> stage** — please use [Issues](https://github.com/scotti1i/seedance-superprompt/issues)
+> stage** — please use [Issues](https://github.com/scotti1i/seedance-2.0-superprompt/issues)
 > for bugs, lint-rule proposals, and template ideas. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
@@ -54,8 +54,8 @@ Prompt galleries are useful when you need inspiration. This repo is for the next
 ## ⚡ Install in 30 seconds
 
 ```bash
-git clone https://github.com/scotti1i/seedance-superprompt.git
-cd seedance-superprompt && bash install.sh
+git clone https://github.com/scotti1i/seedance-2.0-superprompt.git
+cd seedance-2.0-superprompt && bash install.sh
 ```
 
 Restart Claude Code. Type `/seedance` and you're live.
@@ -245,21 +245,21 @@ This skill compresses that 1100-line SOT into a Claude-driven workflow:
 ### Option A — One-line install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/scotti1i/seedance-superprompt/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/scotti1i/seedance-2.0-superprompt/main/install.sh | bash
 ```
 
 ### Option B — Manual
 
 ```bash
-git clone https://github.com/scotti1i/seedance-superprompt.git
-cp -r seedance-superprompt/seedance ~/.claude/skills/seedance
+git clone https://github.com/scotti1i/seedance-2.0-superprompt.git
+cp -r seedance-2.0-superprompt/seedance ~/.claude/skills/seedance
 ```
 
 ### Option C — Symlink (for contributors)
 
 ```bash
-git clone https://github.com/scotti1i/seedance-superprompt.git
-cd seedance-superprompt
+git clone https://github.com/scotti1i/seedance-2.0-superprompt.git
+cd seedance-2.0-superprompt
 ln -s "$(pwd)/seedance" ~/.claude/skills/seedance
 ```
 
@@ -355,7 +355,7 @@ Prompts in Chinese, English, or mixed. Engineering tags stay English
 ## Repository structure
 
 ```
-seedance-superprompt/
+seedance-2.0-superprompt/
 ├── README.md            ← you are here
 ├── LICENSE              ← MIT
 ├── CONTRIBUTING.md      ← how to add templates / lint rules
